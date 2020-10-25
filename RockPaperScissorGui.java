@@ -175,7 +175,7 @@ public class RockPaperScissorGui {
 			aiScore();
 		} else if (playerChoice == playerScissors() && aiChoice == "paper") {
 			System.out.println("Computer Wins");
-			aiScore();
+			playerScore();
 		} else if (playerChoice == playerRock() && aiChoice == "scissors") {
 			System.out.println("Player Wins");
 			playerScore();
